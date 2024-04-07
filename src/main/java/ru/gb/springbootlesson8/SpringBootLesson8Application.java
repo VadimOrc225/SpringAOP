@@ -18,9 +18,9 @@ public class SpringBootLesson8Application {
 //		bean.method1("test");
 
 		Volvo volvo = context.getBean(Volvo.class);
-		volvo.method1("test");
-		volvo.method2();
-		volvo.method3();
+		volvo.method1("РАБОТА МЕТОДА 1");
+		volvo.method2("РАБОТА МЕТОДА 2");
+		volvo.method3("РАБОТА МЕТОДА 3");
 	}
 
 	//method1 -> Proxy[MyServiceBean -> method1 -> method2]
